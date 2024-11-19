@@ -37,19 +37,7 @@ android {
 }
 
 dependencies {
-    testImplementation ("junit:junit:4.13.2")
 
-    // Тестирование пользовательского интерфейса с использованием Espresso
-    androidTestImplementation ("androidx.test.espresso:espresso-core:3.6.1")
-    androidTestImplementation ("androidx.test.espresso:espresso-contrib:3.6.1")
-    androidTestImplementation ("androidx.test.espresso:espresso-intents:3.6.1")
-    androidTestImplementation ("androidx.test.espresso:espresso-accessibility:3.6.1")
-    androidTestImplementation ("androidx.test.espresso:espresso-web:3.6.1")
-    androidTestImplementation ("androidx.test.espresso.idling:idling-concurrent:3.6.1")
-
-    // JUnit extensions для Android
-    androidTestImplementation ("androidx.test.ext:junit:1.2.1")
-    androidTestImplementation ("androidx.test.ext:junit-ktx:1.2.1")
 
     implementation ("org.jetbrains.kotlin:kotlin-stdlib:1.9.24")
 
